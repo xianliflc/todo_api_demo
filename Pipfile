@@ -1,0 +1,29 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+sqlalchemy = "*"
+"psycopg2-binary" = "*"
+simplejson = "*"
+gunicorn = "*"
+"flask-cors" = "*"
+six = "*"
+"flask-restful" = "*"
+pytz = "*"
+aniso8601 = "*"
+marshmallow = "*"
+flask_sqlalchemy = "*"
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
